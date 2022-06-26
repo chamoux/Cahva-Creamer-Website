@@ -13,6 +13,14 @@
   font-family: Morison;
   src: url('/Fonts/Morison-Light.ttf');
 }
+@font-face {
+  font-family: Mistrully;
+  src: url('/Fonts/Mistrully.ttf');
+}
+@font-face {
+  font-family: Maharlika;
+  src: url('/Fonts/Maharlika-Regular.ttf');
+}
 .ConsistanceR {
   font-family: ConsistanceR;
 }
@@ -21,4 +29,13 @@
 }
 .Morison {
   font-family: Morison;
+}
+.Mistrully {
+  font-family: Mistrully;
+}
+.Maharlika {
+  font-family: Maharlika;
+}
+.dark-orange {
+  color: #e88d66;
 }
