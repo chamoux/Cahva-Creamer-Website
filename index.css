@@ -1,1 +1,24 @@
-
+.custom1 {
+  background-color: rgb(204, 204, 204);
+}
+@font-face {
+  font-family: ConsistanceR;
+  src: url('/Fonts/Consistance\ Regular.ttf');
+}
+@font-face {
+  font-family: Esteh;
+  src: url('/Fonts/Esteh.ttf');
+}
+@font-face {
+  font-family: Morison;
+  src: url('/Fonts/Morison-Light.ttf');
+}
+.ConsistanceR {
+  font-family: ConsistanceR;
+}
+.Esteh {
+  font-family: Esteh;
+}
+.Morison {
+  font-family: Morison;
+}
