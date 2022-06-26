@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header (Navbar) -->
+    <section
+      class="section-1 h-screen bg-[url('img/Bg-1.jpg')] bg-cover bg-center"
+    >
+      <div class="relative bg-transparent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div
+            class="flex justify-between items-center py-6 md:justify-start md:space-x-10"
+          >
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+              <a href="#">
+                <span class="sr-only">Workflow</span>
+                <img class="h-12 w-auto sm:h-20" src="/img/Logo.png" alt="" />
+              </a>
+            </div>
+            <nav class="hidden md:flex space-x-10">
+              <div class="relative">
+                <a
+                  href="#"
+                  class="text-base font-medium text-gray-500 hover:text-gray-900"
+                  aria-expanded="false"
+                >
+                  <span>Home</span>
+                </a>
+              </div>
+
+              <a
+                href="#"
+                class="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                Product
+              </a>
+              <a
+                href="#"
+                class="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                Promo
+              </a>
+
+              <div class="relative">
+                <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+                <a
+                  href="#"
+                  class="text-base font-medium text-gray-500 hover:text-gray-900"
+                  aria-expanded="false"
+                >
+                  <span>Outlet</span>
+                </a>
+              </div>
+            </nav>
+            <div
+              class="hidden md:flex items-center justify-end md:flex-1 lg:w-0"
+            >
+              <a
+                href="#"
+                class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <a
+                href="#"
+                class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Navbar -->
+      <div class="container mx-auto px-4 py-4 flex flex-wrap">
+        <div
+          class="grid lg:grid-cols-4 md:lg:grid-cols-4 sm:lg:grid-cols-2 gap-4 text-center content-center"
+        >
+          <div
+            class="lg:row-span-full md:row-span-full lg:col-start-1 md:col-start-1 col-span-2"
+          >
+            <img src="/img/Image-1.png" alt="" loading="lazy" />
+          </div>
+          <div
+            class="lg:row-span-full md:row-span-full col-span-2 p-3 lg:col-end-4 md:col-end-4 lg:ml-40 md:ml-40 lg:mt-40 md:mt-40"
+          >
+            <h2
+              class="rounded-full 2xl:text-4xl xl:text-3xl lg:text-3xl md:text-3xl sm:text-2xl text-orange-600 bg-gray-200 z-1 tracking-wide shadow-2xl shadow-black"
+            >
+              PREMIUM COFFEE CREAMERS
+            </h2>
+            <p
+              class="2xl: mt-20 xl:mt-10 lg:mt-10 md:mt-10 sm:mt-10 lg:ml-40 md:ml-40 sm:text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+              diamonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+              exercitation ullamcorper suscipit lobortis nisl.
+            </p>
+            <button
+              class="bg-orange-500 shadow-lg shadow-black 2xl:ml-40 2xl:mt-20 2xl:w-3/12 sm:w-12/12 rounded-lg text-white"
+            >
+              1.000.009 <br />CUPS
+            </button>
+            <button
+              class="bg-orange-500 shadow-lg shadow-black 2xl:ml-20 2xl:mt-20 2xl:w-3/12 w-12/12 rounded-lg text-white"
+            >
+              5.000 <br />
+              OUTLETS
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 1 -->
+    <!-- Section 2 -->
+    <section
+      class="section-2 h-screen bg-[url('img/Bg-1.jpg')] bg-cover bg-center bg-repeat"
+    >
+      <div class="container mx-auto">
+        <h2
+          class="sm:self-center sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl sm:tracking-tight md: tracking-normal lg: tracking-wide xl:tracking-wide 2xl: tracking-wide font-light"
+        >
+          <strong>PICK YOUR FLAVOR</strong>
+        </h2>
+        <button
+          class="bg-orange-500 shadow-lg shadow-black rounded-lg text-white mt-5 w-56 h-10"
+        >
+          Order Online
+        </button>
+        <!-- PICK YOUR FLAVOR SECTION -->
+        <div
+          class="grid lg:grid-cols-4 md:lg:grid-cols-4 sm:lg:grid-cols-2 gap-4 mt-24 self-center text-center"
+        >
+          <div class="content-center self-center">
+            <img
+              src="/img/Image-7.png"
+              alt=""
+              loading="lazy"
+              class="w-3/5 h-3/5"
+            />
+          </div>
+          <div class="content-center self-center">
+            <img
+              src="/img/Image-6.png"
+              alt=""
+              loading="lazy"
+              class="w-3/5 h-3/5"
+            />
+          </div>
+          <div class="content-center self-center">
+            <img
+              src="/img/Image-7.png"
+              alt=""
+              loading="lazy"
+              class="w-3/5 h-3/5"
+            />
+          </div>
+          <div class="">
+            <img
+              src="/img/Image-5.png"
+              alt=""
+              loading="lazy"
+              class="self-center"
+            />
+          </div>
+        </div>
+        <!-- PICK YOUR FLAVOR SECTION END-->
+        <!-- NEW TAKE AWAY SECTION-->
+        <h2 class="text-6xl tracking-wide font-light">
+          <strong>NEW TAKE AWAY</strong>
+        </h2>
+        <h2 class="text-xl tracking-wide font-light text-orange-500 mt-10">
+          <strong>Take your coffee</strong>
+        </h2>
+        <div
+          class="grid lg:grid-cols-3 md:lg:grid-cols-3 sm:lg:grid-cols-2 gap-4 self-center text-center"
+        >
+          <div class="content-center self-center">
+            <img
+              src="/img/Image-3.png"
+              alt=""
+              loading="lazy"
+              class="w-3/5 h-3/5"
+            />
+          </div>
+          <div class="content-center self-center">
+            <img
+              src="/img/Image-4.png"
+              alt=""
+              loading="lazy"
+              class="w-3/5 h-3/5"
+            />
+          </div>
+          <div class="content-center self-center">
+            <img src="/img/Image-2.png" alt="" loading="lazy" class="" />
+          </div>
+        </div>
+      </div>
+      <!-- NEW TAKE AWAY SECTION END-->
+    </section>
+    <!-- SECTION 2 END -->
+    <section
+      class="section-2 h-screen bg-[url('img/Bg-1.jpg')] bg-cover bg-center bg-repeat"
+    ></section>
+  </body>
+</html>
