@@ -3,23 +3,23 @@
 }
 @font-face {
   font-family: ConsistanceR;
-  src: url('/Fonts/Consistance\ Regular.ttf');
+  src: url('./Fonts/Consistance\ Regular.ttf');
 }
 @font-face {
   font-family: Esteh;
-  src: url('/Fonts/Esteh.ttf');
+  src: url('./Fonts/Esteh.ttf');
 }
 @font-face {
   font-family: Morison;
-  src: url('/Fonts/Morison-Light.ttf');
+  src: url('./Fonts/Morison-Light.ttf');
 }
 @font-face {
   font-family: Mistrully;
-  src: url('/Fonts/Mistrully.ttf');
+  src: url('./Fonts/Mistrully.ttf');
 }
 @font-face {
   font-family: Maharlika;
-  src: url('/Fonts/Maharlika-Regular.ttf');
+  src: url('./Fonts/Maharlika-Regular.ttf');
 }
 .ConsistanceR {
   font-family: ConsistanceR;
@@ -36,6 +36,27 @@
 .Maharlika {
   font-family: Maharlika;
 }
-.dark-orange {
+.brown-text {
+  color: #80431b;
+}
+.brown-bg {
+  background-color: #80431b;
+}
+.orange-bg {
+  background-color: #c67f40;
+}
+.orange-text {
+  color: #c67f40;
+}
+.light-orange-bg {
+  background-color: #ede4e2;
+}
+.light-orange-text {
+  color: #ede4e2;
+}
+.light-brown-bg {
+  background-color: #e88d66;
+}
+.light-brown-text {
   color: #e88d66;
 }
