@@ -16,9 +16,7 @@
     <title>Document</title>
   </head>
   <body class="bg-[url('img/Bg-1.jpg')] bg-cover bg-center bg-repeat">
-    <section
-      class="section-1 h-screen bg-[url('img/Bg-1.jpg')] bg-cover bg-center"
-    >
+    <section class="section-1 bg-[url('img/Bg-1.jpg')] bg-cover bg-center">
       <!-- Header (Navbar) -->
       <div class="relative bg-transparent">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
@@ -27,7 +25,6 @@
           >
             <div class="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
-                <span class="sr-only">Workflow</span>
                 <img class="h-12 w-auto sm:h-20" src="./img/Logo.png" alt="" />
               </a>
             </div>
@@ -86,42 +83,38 @@
         </div>
       </div>
       <!-- End of Navbar -->
-      <div class="container mx-auto px-4 py-4 flex flex-wrap">
-        <div
-          class="grid lg:grid-cols-4 lg:grid-cols-4 gap-4 text-center content-center"
-        >
-          <div
-            class="lg:row-span-full md:row-span-full lg:col-start-1 md:col-start-1 sm:col-span-full md:col-span-2 lg:col-span-2 xl:col-span-2 2xl:col-span-2 col-span-full"
-          >
-            <img src="./img/Image-1.png" alt="" loading="lazy" />
+      <div class="container mx-auto px-4 py-4">
+        <div class="grid lg:grid-cols-4 md:grid-cols-1">
+          <div class="col-span-2">
+            <img src="./img/Image-1.png" alt="" loading="lazy" class="" />
           </div>
           <div
-            class="lg:row-span-full md:row-span-full col-span-3 p-3 lg:col-end-5 md:col-end-4 lg:ml-40 md:ml-40 lg:mt-40 md:mt-40"
+            class="col-span-2 text-center flex flex-col justify-items-center justify-center"
           >
             <h2
-              class="custom1 rounded-full 2xl:text-6xl xl:text-3xl lg:text-3xl md:text-3xl sm:text-2xl brown-text z-1 tracking-wide shadow-2xl shadow-black"
+              class="custom text-2xl Maharlika tracking-wide font-bold rounded-full shadow-black shadow w-fit px-5 brown-text lg:relative lg:right-40"
             >
               PREMIUM COFFEE CREAMERS
             </h2>
-            <p
-              class="2xl: mt-20 xl:mt-10 lg:mt-10 md:mt-10 sm:mt-10 lg:ml-40 md:ml-40 sm:text-center"
-            >
+            <p class="mt-10 text-xl tracking-wide font-semibold">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
               diamonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
               exercitation ullamcorper suscipit lobortis nisl.
             </p>
-            <button
-              class="brown-bg shadow-lg shadow-black 2xl:ml-40 2xl:mt-20 2xl:w-3/12 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 lg:mt-5 sm:mt-5 md:mt-5 rounded-lg text-white"
-            >
-              1.000.009 <br />CUPS
-            </button>
-            <button
-              class="brown-bg shadow-lg shadow-black 2xl:ml-20 2xl:mt-20 2xl:w-3/12 xl:w-1/4 lg:w-1/4 md:w-1/4 sm:w-1/4 rounded-lg text-white"
-            >
-              5.000 <br />
-              OUTLETS
-            </button>
+            <div class="flex flex-row">
+              <button
+                class="brown-bg shadow-lg shadow-black rounded-lg text-white font-semibold tracking-wide text-xl m-10 sm:w-52 md:w-96"
+              >
+                1.000.009 <br />CUPS
+              </button>
+              <button
+                class="brown-bg shadow-lg shadow-black rounded-lg text-white font-semibold tracking-wide text-xl m-10 sm:w-52 md:w-96"
+              >
+                5.000 <br />
+                OUTLETS
+              </button>
+            </div>
           </div>
         </div>
       </div>
