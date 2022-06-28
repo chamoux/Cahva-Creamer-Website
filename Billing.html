@@ -17,10 +17,14 @@
   </head>
   <body>
     <!-- Order Section -->
-    <section class="h-screen">
-      <div class="container mt-20 sm:ml-10 md:ml-10 xl:ml-30 2xl:ml-40">
-        <div class="flex">
-          <button class="rounded-full light-orange-bg text-black h-12 w-52">
+    <section>
+      <div
+        class="container xs:mt-5 sm:mt-10 lg:mt-20 sm:ml-10 md:ml-10 xl:ml-30 2xl:ml-40"
+      >
+        <div class="flex inline-block">
+          <button
+            class="rounded-full light-orange-bg text-black h-12 w-52 tracking-wide font-semibold text-xl"
+          >
             Back to
           </button>
           <div class="block ml-20">
@@ -29,33 +33,79 @@
           </div>
         </div>
         <div
-          class="grid mt-20 flex items-center content-center justify-center h-96 min-h-full gap-4 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-6"
+          class="inline-block grid mt-20 flex items-center content-center justify-center min-h-full gap-4 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 2xl:grid-cols-6"
         >
           <h2
-            class="self-center text-center xl:col-span-2 2xl:col-span-2 text-6xl Mistrully"
+            class="lg:mt-0 md:mt-0 sm:mt-0 self-center text-center xl:col-span-2 2xl:col-span-2 text-6xl Mistrully"
           >
             Selected
           </h2>
-          <img class="self-center text-center xl:col-span-2 2xl:col-span-2" src="./img/Image-5.png">
-            
-          </img>
-          <h2 class="self-center text-center xl:col-span-2 2xl:col-span-2 Maharlika font-bold text-xl">
-            Quantity: X1 <br>
-            Total: $00.00 <br>
-            <button class="rounded-full bg-black text-white h-12 w-72 Maharlika tracking-wide text-2xl">
-                Complete Order
+          <img
+            class="self-center text-center xl:col-span-2 2xl:col-span-2"
+            src="./img/Image-5.png"
+          />
+
+          <h2
+            class="self-center text-center xl:col-span-2 2xl:col-span-2 Maharlika font-bold text-xl"
+          >
+            Quantity: X1 <br />
+            Total: $00.00 <br />
+            <button
+              class="rounded-full bg-black text-white h-12 sm:w-72 md:w-44 lg:w-72 Maharlika tracking-wide md:text-xl lg:text-2xl"
+            >
+              Complete Order
             </button>
           </h2>
         </div>
+        <!-- GRID START -->
+        <div
+          class="inline-block flex items-center content-center justify-center grid mt-20 min-h-full gap-4 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2"
+        >
+          <div class="">
+            <h2
+              class="pt-7 self-center text-center text-6xl Maharlika sm:mt-5 lg:mt-0"
+            >
+              Payment
+            </h2>
+            <br />
+            <h2 class="pt-7 self-center text-center text-3xl Maharlika">
+              Choose payment method below
+            </h2>
+          </div>
+          <div class="flex">
+            <button
+              class="rounded-full light-orange-bg text-black h-12 w-52 tracking-wide font-semibold text-xl"
+            >
+              Back to
+            </button>
+            <div class="flex flex-col mb-5 pl-5">
+              <h2 class="text-4xl">Order</h2>
+
+              <hr
+                class="mt-5 border-black 2xl:w-96 xl:w-96 md:w-96 sm:w-72 md:w-40"
+              />
+            </div>
+          </div>
+          <div class="mt-5 col-span-full w-6/12 mx-auto">
+            <button
+              class="rounded-full light-orange-bg text-black h-12 tracking-wide font-semibold text-xl w-full"
+            >
+              Cash on Delivery
+            </button>
+          </div>
+        </div>
+        <!-- GRID END -->
       </div>
     </section>
     <!-- Order Section End-->
     <!-- Billing Section -->
-    <section>
+    <section
+      class="inline-block flex items-center content-center justify-center"
+    >
       <div
-        class="container flex items-center content-center justify-center mx-auto mb-10"
+        class="container flex items-center content-center justify-center mx-auto mb-10 w-8/12"
       >
-        <div class="grid grid-flow-row auto-rows-max grid-cols-2 gap-4">
+        <div class="grid grid-cols-2 min-h-full sm:gap-2 gap-4">
           <h2
             class="row-span-full col-span-full text-5xl tracking-wide text-center mb-5 mt-5 Maharlika"
           >

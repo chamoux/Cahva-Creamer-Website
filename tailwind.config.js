@@ -2,7 +2,7 @@ module.exports = {
   content: [],
   theme: {
     screens: {
-      xs: '500px',
+      xs: '499px',
     },
     colors: {
       blue: '#1fb6ff',
