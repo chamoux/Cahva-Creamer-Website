@@ -844,6 +844,10 @@ video {
   width: 10rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -932,6 +936,16 @@ video {
 
 .border-solid {
   border-style: solid;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/Assets\/img\/Bg-1\.jpg\'\)\] {
@@ -1054,6 +1068,11 @@ video {
   letter-spacing: 0.025em;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1069,6 +1088,11 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-black {
+  --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .transition {
@@ -1113,24 +1137,9 @@ video {
     margin-right: auto;
   }
 
-  .xs\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
   .xs\:mx-9 {
     margin-left: 2.25rem;
     margin-right: 2.25rem;
-  }
-
-  .xs\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .xs\:mx-52 {
-    margin-left: 13rem;
-    margin-right: 13rem;
   }
 
   .xs\:mt-5 {
@@ -1155,10 +1164,6 @@ video {
 
   .xs\:flex-col {
     flex-direction: column;
-  }
-
-  .xs\:self-center {
-    align-self: center;
   }
 
   .xs\:pl-7 {
@@ -1297,10 +1302,6 @@ video {
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:text-left {
-    text-align: left;
-  }
-
   .md\:text-center {
     text-align: center;
   }
@@ -1359,10 +1360,6 @@ video {
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
-  .lg\:text-left {
-    text-align: left;
-  }
 }
 
 @media (min-width: 640px) {
@@ -1409,10 +1406,6 @@ video {
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
-  .xl\:text-left {
-    text-align: left;
-  }
 }
 
 @media (min-width: 1536px) {
@@ -1434,9 +1427,5 @@ video {
 
   .xxl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .xxl\:text-left {
-    text-align: left;
   }
 }
