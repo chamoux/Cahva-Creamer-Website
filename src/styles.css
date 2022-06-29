@@ -14,6 +14,14 @@
   src: url('/Assets/Fonts/Mistrully.ttf') format('truetype');
 }
 
+.Esteh {
+  font-family: Esteh;
+}
+@font-face {
+  font-family: 'Esteh';
+  src: url('/Assets/Fonts/Esteh.ttf') format('truetype');
+}
+
 .Mistrully {
   font-family: Mistrully;
 }

@@ -614,6 +614,16 @@ video {
   src: url('/Assets/Fonts/Mistrully.ttf') format('truetype');
 }
 
+.Esteh {
+  font-family: Esteh;
+}
+
+@font-face {
+  font-family: 'Esteh';
+
+  src: url('/Assets/Fonts/Esteh.ttf') format('truetype');
+}
+
 .Mistrully {
   font-family: Mistrully;
 }
@@ -920,8 +930,25 @@ video {
   border-style: solid;
 }
 
+.border-orange-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 145 0 / var(--tw-border-opacity));
+}
+
 .bg-\[url\(\'img\/Bg-1\.jpg\'\)\] {
   background-image: url('img/Bg-1.jpg');
+}
+
+.bg-\[url\(\'\/Assets\/img\/Bg-1\.jpg\'\)\] {
+  background-image: url('/Assets/img/Bg-1.jpg');
+}
+
+.bg-\[url\(\'Assets\/img\/Bg-1\.jpg\'\)\] {
+  background-image: url('Assets/img/Bg-1.jpg');
+}
+
+.bg-\[url\(\'\.\.\/Assets\/img\/Bg-1\.jpg\'\)\] {
+  background-image: url('../Assets/img/Bg-1.jpg');
 }
 
 .bg-cover {
@@ -1011,11 +1038,6 @@ video {
   line-height: 1;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-medium {
   font-weight: 500;
 }
@@ -1034,6 +1056,11 @@ video {
 
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -1061,8 +1088,36 @@ video {
     margin-left: 4rem;
   }
 
+  .xs\:inline-block {
+    display: inline-block;
+  }
+
+  .xs\:w-52 {
+    width: 13rem;
+  }
+
+  .xs\:w-44 {
+    width: 11rem;
+  }
+
+  .xs\:w-full {
+    width: 100%;
+  }
+
+  .xs\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .xs\:w-9\/12 {
+    width: 75%;
+  }
+
   .xs\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xs\:flex-col {
+    flex-direction: column;
   }
 
   .xs\:pl-7 {
@@ -1174,6 +1229,10 @@ video {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -1241,11 +1300,6 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
