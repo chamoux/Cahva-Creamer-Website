@@ -12,8 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <title>Billing</title>
+    <title>Order</title>
   </head>
   <body>
     <!-- Navbar Start -->
@@ -27,7 +26,7 @@
               <span class="sr-only">Workflow</span>
               <img
                 class="h-12 w-auto sm:h-20"
-                src="/Assets/img/Logo.png"
+                src="../assets/img/Logo.png"
                 alt=""
               />
             </a>
@@ -85,72 +84,6 @@
       </div>
     </div>
     <!-- Navbar End -->
-    <div
-      class="container xs:mt-5 sm:mt-10 lg:mt-20 sm:ml-10 md:ml-10 xl:ml-30 xxl:ml-40"
-    >
-      <div class="grid lg:grid-cols-4 gap-4">
-        <div class="flex col-span-full lg:col-start-2 xl:col-start-3">
-          <button
-            class="rounded-full bg-orange text-black h-12 w-52 tracking-wide font-semibold text-xl"
-          >
-            Back to
-          </button>
-          <div class="block ml-20">
-            <h2 class="text-4xl">Home</h2>
-            <hr class="mt-5 border-black xxl:w-96 xl:w-96 md:w-96 sm:w-72" />
-          </div>
-        </div>
-        <div class="col-span-2 sm:text-center md:text-center xs:ml-16">
-          <h2 class="text-6xl tracking-wide font-semibold Maharlika">
-            Categories
-          </h2>
-          <br />
-          <h2 class="text-brown text-3xl tracking-wide font-semibold Mistrully">
-            Have a sip of delight !
-          </h2>
-        </div>
-        <div class="col-span-2 mt-10 sm:text-center md:text-center ml-5">
-          <div class="grid grid-cols-3 gap-4">
-            <div>
-              <i class="fa-solid fa-truck text-4xl xs:pl-7 sm:pl-0"></i>
-            </div>
-            <div>
-              <i class="fa-solid fa-comments text-4xl xs:pl-7 sm:pl-0"></i>
-            </div>
-            <div>
-              <i class="fa-solid fa-credit-card text-4xl xs:pl-7 sm:pl-0"></i>
-            </div>
-            <div><p class="font-semibold">shipping available</p></div>
-            <div><p class="font-semibold">Online Support</p></div>
-            <div><p class="font-semibold">Secure Payment</p></div>
-          </div>
-        </div>
-        <img
-          src="/Assets/img/Image-6.png"
-          alt=""
-          loading="lazy"
-          class="xs:col-span-full md:col-span-2 xl:col-span-1"
-        />
-        <img
-          src="/Assets/img/Image-6.png"
-          alt=""
-          loading="lazy"
-          class="xs:col-span-full md:col-span-2 xl:col-span-1"
-        />
-        <img
-          src="/Assets/img/Image-6.png"
-          alt=""
-          loading="lazy"
-          class="xs:col-span-full md:col-span-2 xl:col-span-1"
-        />
-        <img
-          src="/Assets/img/Image-6.png"
-          alt=""
-          loading="lazy"
-          class="xs:col-span-full md:col-span-2 xl:col-span-1"
-        />
-      </div>
-    </div>
     <!-- Order Section -->
     <section>
       <div
@@ -177,7 +110,7 @@
           </h2>
           <img
             class="self-center text-center xl:col-span-2 xxl:col-span-2"
-            src="/Assets/img/Image-5.png"
+            src="../assets/img/Image-5.png"
           />
 
           <h2
@@ -231,68 +164,5 @@
       </div>
     </section>
     <!-- Order Section End-->
-    <!-- Billing Section -->
-    <section class="mt-10 items-center content-center justify-center">
-      <div
-        class="container flex items-center content-center justify-center mx-auto mb-10 w-8/12"
-      >
-        <div class="grid grid-cols-2 min-h-full sm:gap-2 gap-4">
-          <h2
-            class="row-span-full col-span-full text-5xl tracking-wide text-center mb-5 mt-5 Maharlika"
-          >
-            Billing Info
-          </h2>
-          <div class="block xs:col-span-full md:col-span-1">
-            <label for="Name">Full Name</label><br />
-            <input
-              type="text"
-              name="Name"
-              class="border-2 border-black inline-block w-full"
-            />
-          </div>
-          <div class="block xs:col-span-full md:col-span-1 w-full">
-            <label for="Billing_Address">Billing Address</label><br />
-            <input
-              type="text"
-              name="Billing_Address"
-              class="border-2 border-black inline-block w-full"
-            />
-          </div>
-          <div class="block xs:col-span-full md:col-span-1">
-            <label for="City">City</label><br />
-            <input
-              type="text"
-              name="City"
-              class="border-2 border-black inline-block w-full"
-            />
-          </div>
-          <div class="block xs:col-span-full md:col-span-1">
-            <label for="Zip_Code">Zip Code</label><br />
-            <input
-              type="text"
-              name="Zip_Code"
-              class="border-2 border-black inline-block w-full"
-            />
-          </div>
-          <div class="block col-span-2">
-            <label for="Country">Country</label><br />
-            <input
-              type="text"
-              name="Country"
-              class="border-2 border-black w-full inline-block"
-            />
-          </div>
-          <button class="rounded-full bg-orange text-black h-12 text-xl">
-            Return to store
-          </button>
-          <button
-            class="rounded-full bg-brown text-white mt-5 h-12 tracking-wide text-2xl Maharlika text-center"
-          >
-            Proceed
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- Billing Section End-->
   </body>
 </html>

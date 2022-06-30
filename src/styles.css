@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Maharlika';
-  src: url('/Assets/Fonts/Maharlika-Regular.ttf') format('truetype');
+  src: url('../assets/Fonts/Maharlika-Regular.ttf') format('truetype');
 }
 
 .Maharlika {
@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: 'Mistrully';
-  src: url('/Assets/Fonts/Mistrully.ttf') format('truetype');
+  src: url('../assets/Fonts/Mistrully.ttf') format('truetype');
 }
 
 .Esteh {
@@ -19,7 +19,7 @@
 }
 @font-face {
   font-family: 'Esteh';
-  src: url('/Assets/Fonts/Esteh.ttf') format('truetype');
+  src: url('../assets/Fonts/Esteh.ttf') format('truetype');
 }
 
 .Mistrully {
