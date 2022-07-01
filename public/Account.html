@@ -23,7 +23,6 @@
         >
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
-              <span class="sr-only">Workflow</span>
               <img
                 class="h-12 w-auto sm:h-20"
                 src="../assets/img/Logo.png"
@@ -56,7 +55,6 @@
             </a>
 
             <div class="relative">
-              <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
               <a
                 href="#"
                 class="text-base font-medium text-gray-500 hover:text-gray-900"
@@ -66,7 +64,79 @@
               </a>
             </div>
           </nav>
-          <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+          <div class="md:flex items-center justify-end md:flex-1 lg:w-0">
+            <!-- tailwind dropdown menu -->
+            <button
+              class="text-black font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center mr-5"
+              type="button"
+              data-dropdown-toggle="dropdown"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <!-- Dropdown menu -->
+            <div
+              class="hidden bg-grey text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4"
+              id="dropdown"
+            >
+              <ul class="py-1" aria-labelledby="dropdown">
+                <li>
+                  <a
+                    href="#"
+                    class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 font-bold text-brown Maharlika"
+                    ><{#}> ITEMS IN MY CART</a
+                  >
+                </li>
+                <li class="flex-wrap grid grid-cols-2 overflow-auto h-40">
+                  <img
+                    src="/assets/img/Image-5.png"
+                    alt=""
+                    loading="'lazy"
+                    class="min-h-min h-52 col-span-1 w-20"
+                  />
+                  <p
+                    class="w-28 col-span-1 text-center h-full py-10 pr-5 block"
+                  >
+                    some coffee or creamer i dont know what it is <br />
+                    <span class="font-bold font-lg text-brown">X 2</span><br />
+                    <span class="font-bold font-lg text-brown">160.00$</span>
+                  </p>
+                  <img
+                    src="/assets/img/Image-5.png"
+                    alt=""
+                    loading="'lazy"
+                    class="min-h-min h-52 col-span-1 w-20"
+                  />
+                  <p
+                    class="w-28 col-span-1 text-center h-full py-10 pr-5 block"
+                  >
+                    some coffee or creamer i dont know what it is <br />
+                    <span class="font-bold font-lg text-brown">X 2</span><br />
+                    <span class="font-bold font-lg text-brown">160.00$</span>
+                  </p>
+                </li>
+                <li class="grid grid-cols-2 text-center">
+                  <p
+                    class="w-28 col-span-1 text-center h-full py-5 pr-5 font-bold text-xl tracking-wide text-brown"
+                  >
+                    Total
+                  </p>
+                  <p
+                    class="w-28 col-span-1 text-center py-5 pr-5 font-semibold text-orange text-xl"
+                  >
+                    80.00$
+                  </p>
+                </li>
+                <li class="w-full text-center">
+                  <button
+                    class="rounded-full bg-brown text-white text-xl w-6/12"
+                  >
+                    Order
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- end of tailwind dropdown menu -->
+
             <a
               href="#"
               class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
@@ -210,5 +280,6 @@
       </div>
     </section>
     <!-- Account Section End-->
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
   </body>
 </html>
