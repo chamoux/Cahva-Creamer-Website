@@ -882,6 +882,10 @@ video {
   height: 10rem;
 }
 
+.max-h-28 {
+  max-height: 7rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -1058,6 +1062,10 @@ video {
 
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.break-words {
+  overflow-wrap: break-word;
 }
 
 .rounded-lg {
@@ -1244,6 +1252,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-medium {

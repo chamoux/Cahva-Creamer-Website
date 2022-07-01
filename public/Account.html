@@ -65,20 +65,20 @@
             </div>
           </nav>
           <div class="md:flex items-center justify-end md:flex-1 lg:w-0">
-            <!-- tailwind dropdown menu -->
+            <!-- Cart Dropdown menu -->
             <button
               class="text-black font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center mr-5"
               type="button"
-              data-dropdown-toggle="dropdown"
+              data-dropdown-toggle="dropdown_Cart"
             >
               <i class="fa-solid fa-cart-shopping"></i>
             </button>
-            <!-- Dropdown menu -->
+
             <div
               class="hidden bg-grey text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4"
-              id="dropdown"
+              id="dropdown_Cart"
             >
-              <ul class="py-1" aria-labelledby="dropdown">
+              <ul class="py-1" aria-labelledby="dropdown_Cart">
                 <li>
                   <a
                     href="#"
@@ -101,7 +101,7 @@
                     <span class="font-bold font-lg text-brown">160.00$</span>
                   </p>
                   <img
-                    src="/assets/img/Image-5.png"
+                    src="/assets/img/Image-4.png"
                     alt=""
                     loading="'lazy"
                     class="min-h-min h-52 col-span-1 w-20"
@@ -135,7 +135,49 @@
                 </li>
               </ul>
             </div>
-            <!-- end of tailwind dropdown menu -->
+            <!-- end of tailwind dropdown_Cart menu -->
+
+            <!-- WishList Dropdown menu -->
+            <button
+              class="text-black font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center mr-5"
+              type="button"
+              data-dropdown-toggle="dropdown_Wishlist"
+            >
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+            <div
+              class="hidden bg-grey text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4 w-72"
+              id="dropdown_Wishlist"
+            >
+              <ul class="py-1 overflow-auto h-52" aria-labelledby="dropdown_Wishlist">
+                <li class="text-center">
+                  <p
+                    href="#"
+                    class="px-4 py-2 font-bold text-brown Maharlika text-center"
+                    ><{#}> ITEMS IN MY WISHLIST</a
+                  >
+                </li>
+                <li class="h-40 text-center break-words font-semibold text-lg">
+                  <a href="#">
+                  <p>Some coffee here please asdasfahsdafbakjsdhakjfhskajld</p>
+                  <img src="/assets/img/Image-4.png" alt="" class="max-h-28 self-center mx-auto">
+                  </a>
+                </li>
+                <a href="#">
+                <li class="h-40 text-center break-words font-semibold text-lg">
+                  <p>Some coffee here please asdasfahsdafbakjsdhakjfhskajld</p>
+                  <img src="/assets/img/Image-4.png" alt="" class="max-h-28 self-center mx-auto">
+                  </a>
+                </li>
+                <a href="#">
+                <li class="h-40 text-center break-words font-semibold text-lg">
+                  <p>Some coffee here please asdasfahsdafbakjsdhakjfhskajld</p>
+                  <img src="/assets/img/Image-4.png" alt="" class="max-h-28 self-center mx-auto">
+                </li>
+                </a>
+              </ul>
+            </div>
+            <!-- end of tailwind WishList menu -->
 
             <a
               href="#"
