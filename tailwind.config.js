@@ -1,6 +1,16 @@
 module.exports = {
   content: ['./public/*.{html,js}'],
   theme: {
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.50em',
+      Extrawide: '1em',
+    },
     screens: {
       xs: '499px',
       sm: '640px',
