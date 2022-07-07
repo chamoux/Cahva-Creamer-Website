@@ -1557,6 +1557,10 @@ video {
     grid-column: 1 / -1;
   }
 
+  .xs\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .xs\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1591,6 +1595,10 @@ video {
     width: 75%;
   }
 
+  .xs\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .xs\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1611,6 +1619,16 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .xs\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xs\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1620,6 +1638,14 @@ video {
 
   .sm\:right-12 {
     right: 3rem;
+  }
+
+  .sm\:col-span-full {
+    grid-column: 1 / -1;
+  }
+
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2;
   }
 
   .sm\:mx-0 {
@@ -1684,6 +1710,10 @@ video {
 @media (min-width: 768px) {
   .md\:invisible {
     visibility: hidden;
+  }
+
+  .md\:static {
+    position: static;
   }
 
   .md\:col-span-1 {
@@ -1778,9 +1808,27 @@ video {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .md\:tracking-normal {
+    letter-spacing: 0;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
   .lg\:relative {
     position: relative;
   }
@@ -1789,12 +1837,24 @@ video {
     right: 10rem;
   }
 
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .lg\:col-start-2 {
     grid-column-start: 2;
   }
 
   .lg\:col-start-1 {
     grid-column-start: 1;
+  }
+
+  .lg\:col-start-3 {
+    grid-column-start: 3;
   }
 
   .lg\:row-span-full {
@@ -1817,6 +1877,18 @@ video {
     width: 18rem;
   }
 
+  .lg\:w-96 {
+    width: 24rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-60 {
+    width: 15rem;
+  }
+
   .lg\:flex-1 {
     flex: 1 1 0%;
   }
@@ -1829,6 +1901,10 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:text-start {
+    text-align: start;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1837,6 +1913,10 @@ video {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:tracking-wide {
+    letter-spacing: .025em;
   }
 }
 
@@ -1883,6 +1963,10 @@ video {
 
   .xl\:w-96 {
     width: 24rem;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
   }
 
   .xl\:grid-cols-6 {
