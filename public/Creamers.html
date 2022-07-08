@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Creamers</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="relative bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div
+          class="flex justify-between items-center py-6 md:justify-start md:space-x-10"
+        >
+          <button
+            href="#"
+            class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-900 md:invisible sm:visible"
+            data-dropdown-toggle="dropdown_Nav"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="absolute left-0 bg-white hidden text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4 w-96"
+            id="dropdown_Nav"
+          >
+            <ul class="py-1" aria-labelledby="dropdown_Nav">
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 font-bold text-brown Maharlika"
+                  >Home</a
+                >
+                <hr />
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 font-bold text-brown Maharlika"
+                  >Product</a
+                >
+                <hr />
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 font-bold text-brown Maharlika"
+                  >Promo</a
+                >
+                <hr />
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block px-4 py-2 font-bold text-brown Maharlika"
+                  >Outlet</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex justify-start lg:w-0 lg:flex-1">
+            <a href="#">
+              <img
+                class="h-12 w-auto sm:h-20"
+                src="../assets/img/Logo.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <nav class="hidden md:flex space-x-10">
+            <div class="relative">
+              <a
+                href="#"
+                class="text-base font-medium text-gray-500 hover:text-gray-900"
+                aria-expanded="false"
+              >
+                <span>Home</span>
+              </a>
+            </div>
+
+            <a
+              href="#"
+              class="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Product
+            </a>
+            <a
+              href="#"
+              class="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Promo
+            </a>
+
+            <div class="relative">
+              <a
+                href="#"
+                class="text-base font-medium text-gray-500 hover:text-gray-900"
+                aria-expanded="false"
+              >
+                <span>Outlet</span>
+              </a>
+            </div>
+          </nav>
+          <div class="md:flex items-center justify-end md:flex-1 lg:w-0">
+            <!-- Cart Dropdown menu -->
+            <button
+              class="text-black font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center mr-5"
+              type="button"
+              data-dropdown-toggle="dropdown_Cart"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+
+            <div
+              class="hidden bg-grey text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4"
+              id="dropdown_Cart"
+            >
+              <ul class="py-1" aria-labelledby="dropdown_Cart">
+                <li>
+                  <p
+                    href="#"
+                    class="block px-4 py-2 font-bold text-brown Maharlika"
+                  >
+                    <{#}> ITEMS IN MY CART
+                  </p>
+                </li>
+                <li class="flex-wrap grid grid-cols-2 overflow-auto h-40">
+                  <img
+                    src="/assets/img/Image-5.png"
+                    alt=""
+                    loading="'lazy"
+                    class="min-h-min h-52 col-span-1 w-28"
+                  />
+                  <p
+                    class="w-28 col-span-1 text-center h-full py-10 pr-5 block"
+                  >
+                    some coffee or creamer i dont know what it is <br />
+                    <span class="font-bold font-lg text-brown">X 2</span><br />
+                    <span class="font-bold font-lg text-brown">160.00$</span
+                    ><br />
+                    <span class=""
+                      ><a
+                        href="#RemoveItem"
+                        class="bg-red text-white text-lg font-semibold rounded-full text-center px-3"
+                        >Remove</a
+                      ></span
+                    >
+                  </p>
+                  <img
+                    src="/assets/img/Image-4.png"
+                    alt=""
+                    loading="'lazy"
+                    class="min-h-min h-52 col-span-1 w-20"
+                  />
+                  <p
+                    class="w-28 col-span-1 text-center h-full py-10 pr-5 block"
+                  >
+                    some coffee or creamer i dont know what it is <br />
+                    <span class="font-bold font-lg text-brown">X 2</span><br />
+                    <span class="font-bold font-lg text-brown">160.00$</span
+                    ><br />
+                    <span class=""
+                      ><a
+                        href="#RemoveItem"
+                        class="bg-red text-white text-lg font-semibold rounded-full text-center px-3"
+                        >Remove</a
+                      ></span
+                    >
+                  </p>
+                </li>
+                <li class="grid grid-cols-2 text-center">
+                  <p
+                    class="w-28 col-span-1 text-center h-full py-5 pr-5 font-bold text-xl tracking-wide text-brown"
+                  >
+                    Total
+                  </p>
+                  <p
+                    class="w-28 col-span-1 text-center py-5 pr-5 font-semibold text-orange text-xl"
+                  >
+                    320.00$
+                  </p>
+                </li>
+                <li class="w-full text-center">
+                  <button
+                    class="rounded-full bg-brown text-white text-xl w-6/12"
+                  >
+                    Checkout
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- end of tailwind dropdown_Cart menu -->
+
+            <!-- WishList Dropdown menu -->
+            <button
+              class="text-black font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center mr-5"
+              type="button"
+              data-dropdown-toggle="dropdown_Wishlist"
+            >
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+            <div
+              class="hidden bg-grey text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4 w-72"
+              id="dropdown_Wishlist"
+            >
+              <ul
+                class="py-1 overflow-auto h-52"
+                aria-labelledby="dropdown_Wishlist"
+              >
+                <li class="text-center">
+                  <p
+                    href="#"
+                    class="px-4 py-2 font-bold text-brown Maharlika text-center"
+                  >
+                    <{#}> ITEMS IN MY WISHLIST
+                  </p>
+                </li>
+                <li class="h-40 text-center break-words font-semibold text-lg">
+                  <a href="#">
+                    <p>Coffee 1</p>
+                    <img
+                      src="/assets/img/Image-3.png"
+                      alt=""
+                      class="max-h-28 self-center mx-auto"
+                    />
+                  </a>
+                </li>
+
+                <li class="h-40 text-center break-words font-semibold text-lg">
+                  <a href="#">
+                    <p>Coffee 2</p>
+                    <img
+                      src="/assets/img/Image-4.png"
+                      alt=""
+                      class="max-h-28 self-center mx-auto"
+                    />
+                  </a>
+                </li>
+
+                <li class="h-40 text-center break-words font-semibold text-lg">
+                  <a href="#">
+                    <p>Coffee 3</p>
+                    <img
+                      src="/assets/img/Image-5.png"
+                      alt=""
+                      class="max-h-28 self-center mx-auto"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- end of tailwind WishList menu -->
+
+            <a
+              href="#"
+              class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar End -->
+    <div
+      class="container xs:mt-5 sm:mt-10 lg:mt-20 sm:ml-10 md:ml-10 xl:ml-30 xxl:ml-40"
+    >
+      <div class="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div
+          class="col-span-full sm:text-center md:text-center lg:text-start xs:ml-16"
+        >
+          <h2 class="text-6xl tracking-wide font-semibold Maharlika">
+            Creamers
+          </h2>
+          <br />
+          <h2 class="text-brown text-3xl tracking-wide font-semibold Mistrully">
+            Pick your natural Coffee Creamer
+          </h2>
+        </div>
+        <div class="block">
+          <img
+            src="../assets/img/Image-6.png"
+            alt=""
+            loading="lazy"
+            class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125"
+          />
+          <h2 class="text-center font-semibold">Hazelnut</h2>
+        </div>
+        <div class="block">
+          <img
+            src="../assets/img/Image-6.png"
+            alt=""
+            loading="lazy"
+            class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125"
+          />
+          <h2 class="text-center font-semibold">Mocha</h2>
+        </div>
+        <div class="block">
+          <img
+            src="../assets/img/Image-6.png"
+            alt=""
+            loading="lazy"
+            class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125"
+          />
+          <h2 class="text-center font-semibold">Vanilla</h2>
+        </div>
+        <div class="block">
+          <img
+            src="../assets/img/Image-6.png"
+            alt=""
+            loading="lazy"
+            class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125"
+          />
+          <h2 class="text-center font-semibold">Mocha</h2>
+        </div>
+        <div class="block">
+          <img
+            src="../assets/img/Image-6.png"
+            alt=""
+            loading="lazy"
+            class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125"
+          />
+          <h2 class="text-center font-semibold">Vanilla</h2>
+        </div>
+
+        <div
+          class="col-span-full sm:text-center md:text-center lg:text-start xs:ml-16 mt-20"
+        >
+          <h2 class="text-6xl tracking-wide font-semibold Maharlika">
+            Coffee Shopping
+          </h2>
+          <br />
+          <h2 class="text-brown text-3xl tracking-wide font-semibold Mistrully">
+            Well packed flavors to your tasting
+          </h2>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+  </body>
+</html>
