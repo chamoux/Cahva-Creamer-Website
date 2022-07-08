@@ -50,6 +50,13 @@
 .bg-light-gray {
   background-color: #ede4e2;
 }
+.bg-50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.transform {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 /* width */
 ::-webkit-scrollbar {

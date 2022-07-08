@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -293,6 +299,14 @@
             class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125 rounded-full bg-orange"
           />
           <h2 class="text-center font-semibold">Hazelnut</h2>
+          <div class="text-center">
+            <button
+              onclick="on()"
+              class="mx-auto bg-orange rounded-full w-8/12"
+            >
+              Add to Cart
+            </button>
+          </div>
         </div>
         <div class="block">
           <img
@@ -302,6 +316,14 @@
             class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125 rounded-full bg-orange"
           />
           <h2 class="text-center font-semibold">Mocha</h2>
+          <div class="text-center">
+            <button
+              onclick="on()"
+              class="mx-auto bg-orange rounded-full w-8/12"
+            >
+              Add to Cart
+            </button>
+          </div>
         </div>
         <div class="block">
           <img
@@ -311,6 +333,14 @@
             class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125 rounded-full bg-orange"
           />
           <h2 class="text-center font-semibold">Vanilla</h2>
+          <div class="text-center">
+            <button
+              onclick="on()"
+              class="mx-auto bg-orange rounded-full w-8/12"
+            >
+              Add to Cart
+            </button>
+          </div>
         </div>
         <div class="block">
           <img
@@ -320,6 +350,14 @@
             class="xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125 rounded-full bg-orange"
           />
           <h2 class="text-center font-semibold">Mocha</h2>
+          <div class="text-center">
+            <button
+              onclick="on()"
+              class="mx-auto bg-orange rounded-full w-8/12"
+            >
+              Add to Cart
+            </button>
+          </div>
         </div>
         <div class="block">
           <img
@@ -329,6 +367,45 @@
             class="z-0 xs:col-span-full md:col-span-1 xl:col-span-1 transition ease-in-out delay-100 hover:scale-125 rounded-full bg-orange"
           />
           <h2 class="text-center font-semibold z-10">Vanilla</h2>
+          <div class="text-center">
+            <button
+              onclick="on()"
+              class="mx-auto bg-orange rounded-full w-8/12"
+            >
+              Add to Cart
+            </button>
+          </div>
+
+          <div
+            id="overlay"
+            class="my-12 fixed hidden w-full h-full top-0 left-0 right-0 bottom-0 z-10 cursor-pointer bg-50"
+          >
+            <div
+              class="flex flex-col absolute mx-auto top-1/4 left-1/4 right-1/4 transform text-center justify-center content-center items-center"
+            >
+              <div class="block bg-white">
+                <label for="quantity" class="Maharlika text-2xl font-semibold"
+                  >Quantity</label
+                >
+                <br />
+                <input
+                  type="number"
+                  class="w-5/12 border-black border-2 my-5"
+                  name="quantity"
+                />
+                <br />
+                <button class="bg-orange rounded-full w-6/12">
+                  Add to Cart
+                </button>
+                <button
+                  class="bg-orange rounded-full w-6/12 my-3"
+                  onclick="off()"
+                >
+                  Back
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div
@@ -344,6 +421,15 @@
         </div>
       </div>
     </div>
+    <script>
+      function on() {
+        document.getElementById('overlay').style.display = 'block'
+      }
+
+      function off() {
+        document.getElementById('overlay').style.display = 'none'
+      }
+    </script>
     <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
   </body>
 </html>
