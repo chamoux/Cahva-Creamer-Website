@@ -58,6 +58,10 @@
   -ms-transform: translate(-50%, -50%);
 }
 
+.custom {
+  background-color: rgb(204, 204, 204);
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 7px;
