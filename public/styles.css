@@ -957,8 +957,24 @@ video {
   max-height: 7rem;
 }
 
-.max-h-80 {
-  max-height: 20rem;
+.max-h-72 {
+  max-height: 18rem;
+}
+
+.max-h-40 {
+  max-height: 10rem;
+}
+
+.max-h-56 {
+  max-height: 14rem;
+}
+
+.max-h-52 {
+  max-height: 13rem;
+}
+
+.max-h-48 {
+  max-height: 12rem;
 }
 
 .min-h-min {
@@ -1011,8 +1027,8 @@ video {
   width: 13rem;
 }
 
-.w-3\/12 {
-  width: 25%;
+.w-8\/12 {
+  width: 66.666667%;
 }
 
 .w-fit {
@@ -1031,10 +1047,6 @@ video {
 
 .w-40 {
   width: 10rem;
-}
-
-.w-8\/12 {
-  width: 66.666667%;
 }
 
 .w-4\/12 {
