@@ -320,39 +320,37 @@
               class="border-2 border-black w-full inline-block h-10"
             />
           </div>
-          <div class="grid grid-cols-2 col-span-full my-5">
-            <div class="block scale-150 text-end w-8/12">
-              <input
-                type="radio"
-                id="html"
-                name="Payment"
-                value="Card"
-                class="scale-150"
-              />
-              <br />
-              <input
-                type="radio"
-                id="html"
-                name="Payment"
-                value="COD"
-                class="scale-150"
-              />
-            </div>
-            <div class="block scale-150 text-start w-8/12">
-              <label
-                for="html"
-                class="Maharlika tracking-wide font-semibold ml-5"
-                >Cash on delivery</label
-              ><br />
-
-              <label
-                for="html"
-                class="Maharlika tracking-wide font-semibold ml-5"
-                >Pay By Card</label
-              >
-            </div>
+          <!-- <div class="lg:hidden xl:inline grid grid-cols-2 col-span-full my-5">
+            <div class="block scale-150 text-end w-8/12"> -->
+          <div class="flex items-center col-span-full">
+            <input
+              type="radio"
+              id="html"
+              name="Payment"
+              value="Card"
+              class="w-8 h-8"
+            />
+            <label
+              for="html"
+              class="Maharlika text-xl tracking-wide font-semibold ml-5"
+              >Cash on delivery</label
+            >
           </div>
 
+          <div class="flex items-center col-span-full my-auto">
+            <input
+              type="radio"
+              id="html"
+              name="Payment"
+              value="COD"
+              class="w-8 h-8"
+            />
+            <label
+              for="html"
+              class="Maharlika tracking-wide text-xl font-semibold ml-5"
+              >Pay By Card</label
+            >
+          </div>
           <button
             class="rounded-full bg-orange text-black h-12 text-xl xs:w-full xs:col-span-full md:col-span-1"
           >
