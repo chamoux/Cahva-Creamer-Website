@@ -748,6 +748,18 @@ video {
   bottom: 2.5rem;
 }
 
+.-top-20 {
+  top: -5rem;
+}
+
+.-top-24 {
+  top: -6rem;
+}
+
+.-top-28 {
+  top: -7rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -913,6 +925,10 @@ video {
 
 .ml-12 {
   margin-left: 3rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
 .block {
@@ -1460,6 +1476,10 @@ video {
   font-weight: 300;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1732,6 +1752,10 @@ video {
 
   .md\:static {
     position: static;
+  }
+
+  .md\:-top-28 {
+    top: -7rem;
   }
 
   .md\:col-span-1 {
