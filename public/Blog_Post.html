@@ -16,7 +16,7 @@
   </head>
   <body>
     <section>
-      <div class="my-24 mx-auto w-full grid grid-cols-2">
+      <div class="my-24 mx-auto w-full grid xs:grid-cols-1 md:grid-cols-2">
         <button
           class="sm:mx-auto rounded-full bg-orange text-xl Maharlika tracking-Extrawide xs:w-72 sm:w-96 py-2 text-center shadow-lg shadow-black text-white max-h-16 h-16"
         >
@@ -49,16 +49,41 @@
             <img src="/assets/img/Image-8.png" alt="" class="max-h-60" />
             <img src="/assets/img/Image-8.png" alt="" class="max-h-60" />
           </div>
-          <!-- <div class="absolute border-2 border-black right-28 left-48 top-0 bottom-0"></div> -->
         </div>
         <div class="">
-          <button
-            class="rounded bg-brown text-white px-10 py-2 shadow-lg shadow-black"
-          >
-            Flavors Story
-          </button>
+          <div class="flex flex-col md:text-start w-full">
+            <button
+              class="md:mx-44 xs:self-center rounded bg-brown text-white md:px-10 py-2 shadow-lg shadow-black xs:w-6/12 md:w-3/12 my-3"
+            >
+              Flavors Story
+            </button>
+            <button
+              class="md:mx-44 self-center justify-self-center rounded bg-brown text-white md:px-10 py-2 shadow-lg shadow-black xs:w-6/12 md:w-3/12 my-3"
+            >
+              Creation
+            </button>
+            <button
+              class="xs:mx-0 xs:self-center md:mx-52 rounded bg-brown text-white px-10 py-2 shadow-lg shadow-black xs:w-6/12 md:w-3/12 my-3"
+            >
+              Behind the scenes
+            </button>
+            <div
+              class="w-full grid xs:grid-cols-1 md:grid-cols-2 my-10 md:mx-20 gap-4 xs:mx-auto"
+            >
+              <button
+                class="xs:self-center xs:justify-self-center md:self-start md:ml-5 rounded bg-brown text-white px-10 py-2 shadow-lg shadow-black xs:w-6/12"
+              >
+                About us
+              </button>
+              <button
+                class="xs:self-center xs:justify-self-center md:self-start md:justify-self-start rounded bg-brown text-white px-10 py-2 shadow-lg shadow-black xs:w-6/12"
+              >
+                Around the world
+              </button>
+            </div>
+          </div>
           <h2
-            class="text-4xl Mistrully tracking-wide font-bold bg-orange w-6/12"
+            class="text-4xl Mistrully tracking-wide font-bold bg-orange w-8/12"
           >
             Behind the scenes
           </h2>
@@ -70,26 +95,28 @@
         </div>
       </div>
     </section>
-    <section class="container xs:mx-auto md:m-24 grid md:grid-cols-2 xs:grid-cols-1">
-        <div class="block col-span-full xs:mx-auto sm:mx-0">
-      <h2 class="text-6xl tracking-wide font-light Mistrully ">
-              <strong>About US</strong>
-              <hr
-                class=" text-brown w-40 border-solid border-4 rounded-full mt-2"
-              />
-            </h2>
-            </div>
-            <p class="mt-10 tracking-wide font-light text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus alias quia ipsa cumque et quibusdam quidem
-              similique. Quisquam magnam nulla consequatur facere! Quis a, dicta
-              laboriosam voluptatibus qui delectus blanditiis.
-            </p>
-          </div>
-          <div class="text-end">
-          <img class="xs:mt-5 xs:mx-auto md:mt-0 max-h-52 xl:ml-auto md:mx-0 shadow-lg shadow-black" src="../assets/img/Image-9.png" />
-          </div>
-        </div>
+    <section
+      class="container xs:mx-auto md:m-24 grid md:grid-cols-2 xs:grid-cols-1"
+    >
+      <div class="block col-span-full xs:mx-auto sm:mx-0">
+        <h2 class="text-6xl tracking-wide font-light Mistrully">
+          <strong>About US</strong>
+          <hr class="text-brown w-40 border-solid border-4 rounded-full mt-2" />
+        </h2>
+      </div>
+      <p class="mt-10 tracking-wide font-light text-2xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+        alias quia ipsa cumque et quibusdam quidem similique. Quisquam magnam
+        nulla consequatur facere! Quis a, dicta laboriosam voluptatibus qui
+        delectus blanditiis.
+      </p>
+
+      <div class="text-end">
+        <img
+          class="xs:mt-5 xs:mx-auto md:mt-0 max-h-52 xl:ml-auto md:mx-0 shadow-lg shadow-black"
+          src="../assets/img/Image-9.png"
+        />
+      </div>
     </section>
   </body>
 </html>
